@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title>About GitHub</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -14,13 +14,41 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
 
-    <link rel="stylesheet" href="styles.css/fonts.css">
-    <link rel="stylesheet" href="styles.css/style.css">
+    <!-- <link rel="stylesheet" href="styles.css/fonts.css">
+    <link rel="stylesheet" href="styles.css/style.css"> -->
 
 </head>
 
 <body>
-    
+    <section class="section">
+        <article class="article">
+        <a href="https://github.com/" class="article__logo">
+        <svg class="article__logo" width="40px" height="40px">
+            <use href="./icons/icon-github.svg"></use>
+        </svg></a>
+        <h1 class="article__title">The GitHub Flow</h1>
+        <p class="article__content">GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. 
+        <span class="article__accent">This guide explains how and why GitHub flow works.</span></p>
+
+        <p class="article__content">When you're working on a project, you're going to have a bunch of different features or ideas in progress at any given
+        time – some of which are ready to go, and others which are not. <span class="article__accent-secondary">Branching</span> exists to help you manage this workflow.
+        When you create a branch in your project, you're creating an environment where you can try out new ideas.</p>
+        <p class="article__content">Once your branch has been created, it's time to start making changes. Whenever you add, edit, or delete a file, you're <span class="article__accent-secondary">making a commit</span>, and adding them to your branch. This process of adding commits keeps track of your progress as you work
+        on a feature branch.</p>
+        <p class="article__content">The next step is opening a <a href="./pull.html" class="article__link">pull request</a> . Pull Requests initiate discussion about your commits. Because they're tightly integrated with the underlying Git
+        repository, anyone can see exactly what changes would be merged if they accept your request.</p>
+        <p class="article__content">Once a Pull Request has been opened, the person or team <span class="article__accent-secondary">reviewing</span> your changes may have questions or comments. Perhaps
+        the coding style doesn't match project guidelines, the change is missing unit tests, or maybe everything looks great and
+        props are in order. Pull Requests are designed to encourage and capture this type of conversation.</p>
+        <p class="article__content">Once your pull request has been reviewed and the branch passes your tests, you can <span class="article__accent-secondary">deploy</span> your changes to verify them in
+        production. If your branch causes issues, you can roll it back by deploying the existing main branch into production.
+        Different teams may have different deployment strategies. For some, it may be best to deploy to a specially provisioned
+        testing environment. For others, deploying directly to production may be the better choice based on the other elements
+        in their workflow.</p>
+        <p class="article__content"> Now that your changes have been verified in production, it is time to <a href="./merge.html" class="article__link">merge</a> your code into the main branch. Once merged, Pull Requests preserve a record of the historical changes to your code. Because they're searchable, they let anyone go back in time to understand why and how a decision was made.</p>
+    </article>
+    </section>
+
 </body>
 
 </html>

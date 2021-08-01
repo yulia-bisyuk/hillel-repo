@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge</title>
+</head>
+<body>
+    <section class="section">
+        <article class="article">
+            <a href="./index.html" class="article__back-btn">
+                <svg class="" width="40px" height="40px">
+                    <use href="./icons/back-button.svg"></use>
+                </svg></a>
+            <h1 class="article__title">Merging a pull request</h1>
+            
+            <p class="article__content"><span class="article__accent">Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.</span></p>
+            <p class="article__content">In a pull request, you propose that changes you've made on a head branch should be merged into a base branch. By default, any pull request can be merged at any time, unless the head branch is in conflict with the base branch. However, there may be restrictions on when you can merge a pull request into a specific branch. For example, you may only be able to merge a pull request into the default branch if required status checks are passing.</p>
+            <p class="article__content">You can configure a pull request to merge automatically when all merge requirements are met.</p>
+            <p class="article__content">If the pull request has merge conflicts, or if you'd like to test the changes before merging, you can <span class="article__accent-secondary">check out the pull request locally</span> and merge it using the command line.</p>
+            <p class="article__content">You can't merge a draft pull request. You can have head branches automatically deleted after pull requests are merged in your repository.</p>
+            <p class="article__content">If you decide you don't want the changes in a topic branch to be merged to the upstream branch, you can <span class="article__accent-secondary">close the pull request</span> without merging.</p>
+            
+            <h2 class="article__title-secondary">ProTip</h2>
+            
+            <p class="article__content">By incorporating certain keywords into the text of your Pull Request, you can associate issues with code. When your Pull Request is merged, the related issues are also closed. For example, entering the phrase Closes #32 would close issue number 32 in the repository</p>
+        </article>
+    </section>
+</body>
+</html>
