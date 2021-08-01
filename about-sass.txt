@@ -1,0 +1,18 @@
+What makes SASS so interesting?
+
+The answer lies somewhere in between the SASS properties and strong ties with CSS basics it has which people are already familiar with. Here is a basic rundown of concepts we have in SASS.
+
+SASS variables:
+Similar to programming languages, SASS provides an ability to store common CSS properties in a variable. The most common use case is to store the hex color value in a variable for further usability.
+
+Predefined LIGHTEN/DARKEN function:
+While hovering on any element, it is always the case that we might want to darken or lighten the color by a certain amount to have a great user experience. SASS provides us a way to do that by using a predefined function and refrain ourselves from using hex-value for each shade.
+
+Mixins:
+The most popular and much loved by the SASS community. SASS Mixins are like a set of custom defined lines of CSS properties for reusability. For example, the people who are familiar with the traditional way of writing CSS, the “pre-flexbox/pre-CSSgrid era”, they do know its such a pain to write “clearfix” a whole bunch of times to avoid uncertainty in the code. But what if there was a hack to write it in one place and call this function whenever we want? So, SASS Mixins are all about the last pit! It is simply like defining a custom CSS “function” and calling it whenever we want that piece of code.
+
+Functions in SASS:
+Very easy and rarely used. It does help in explicitly defining a mathematical function inside a function. But the catch is, we can most write mathematical operations inside the SASS file typically anywhere.
+
+Extends in SASS:
+Most sincerely, we can write a placeholder with a whole bunch of properties, and make other elements “extend” that placeholder. Oh but wait!! Isn’t that what we do in Mixins?? And, Yes, it is very similar to the Mixins and thus creates confusion among developers. The only little quirk with Extends is we should only use extend where the element actually inherits with the parent element like a “button” and “button: hover” and should not totally be different, in that case just go with Mixins!
