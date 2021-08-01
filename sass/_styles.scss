@@ -1,0 +1,60 @@
+.article {
+  width: 100vw;
+  height: 100vh;
+  padding: 100px;
+
+  &__logo,
+  &__back-btn {
+    fill: $heading-txt-color;
+    margin-bottom: 30px;
+  }
+  &__back-btn:hover {
+    fill: $accent-secondary-color;
+  }
+
+  &__title {
+    color: $heading-txt-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+  &__title-secondary {
+    font-family: "Raleway", sans-serif;
+    color: $heading-txt-color;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  &__accent {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-right: 20px;
+    text-align: left;
+    color: $accent-color;
+  }
+
+  &__accent-secondary {
+    color: $accent-secondary-color;
+  }
+
+  &__accent,
+  &__content {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    color: $link-color;
+
+    &:hover {
+      color: $heading-txt-color;
+      font-weight: 500;
+    }
+  }
+}

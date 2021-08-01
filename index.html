@@ -13,6 +13,8 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+        
+    <link rel="stylesheet" href="./css/main.min.css">
 
     <!-- <link rel="stylesheet" href="styles.css/fonts.css">
     <link rel="stylesheet" href="styles.css/style.css"> -->
@@ -20,16 +22,17 @@
 </head>
 
 <body>
-    <section class="section">
+
         <article class="article">
+           
         <a href="https://github.com/" class="article__logo">
-        <svg class="article__logo" width="40px" height="40px">
-            <use href="./icons/icon-github.svg"></use>
+        <svg class="article__logo" width="60px" height="60px">
+            <use href="./icons/sprite.svg#icon-github"></use>
         </svg></a>
         <h1 class="article__title">The GitHub Flow</h1>
-        <p class="article__content">GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. 
-        <span class="article__accent">This guide explains how and why GitHub flow works.</span></p>
-
+       
+        <p class="article__accent"> This guide explains how and why GitHub flow works.</p>
+        <p class="article__content">GitHub flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly.</p>
         <p class="article__content">When you're working on a project, you're going to have a bunch of different features or ideas in progress at any given
         time – some of which are ready to go, and others which are not. <span class="article__accent-secondary">Branching</span> exists to help you manage this workflow.
         When you create a branch in your project, you're creating an environment where you can try out new ideas.</p>
@@ -47,7 +50,7 @@
         in their workflow.</p>
         <p class="article__content"> Now that your changes have been verified in production, it is time to <a href="./merge.html" class="article__link">merge</a> your code into the main branch. Once merged, Pull Requests preserve a record of the historical changes to your code. Because they're searchable, they let anyone go back in time to understand why and how a decision was made.</p>
     </article>
-    </section>
+    
 
 </body>
 
